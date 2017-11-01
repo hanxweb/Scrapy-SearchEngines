@@ -31,4 +31,4 @@ But to reduce these measures, we recommand to set ```DOWNLOAD_DELAY=10``` in set
 ## Chinese
 本项目用于bing、google、baidu搜索引擎关键词的抓链，基于python 3.6和scrapy。
 
-根据https://github.com/xtt129/seCrawler提供的项目进行小小改动以适应3.6版本。
+根据 https://github.com/xtt129/seCrawler 提供的项目进行小小改动以适应3.6版本。
