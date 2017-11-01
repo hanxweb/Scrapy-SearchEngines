@@ -28,4 +28,7 @@ The project doesn't provide any workaround to the anti-spider measure like CAPTC
 
 But to reduce these measures, we recommand to set ```DOWNLOAD_DELAY=10``` in settings.py file to add a temporisation (in second) between the crawl of two pages, see details in [Scrapy Setting](https://doc.scrapy.org/en/1.2/topics/settings.html#std:setting-DOWNLOAD_DELAY).
 
-本项目用于bing、google、baidu搜索引擎关键词的抓链，基于python 3.6和scrapy，根据https://github.com/xtt129/seCrawler项目进行小小改动。
+## Chinese
+本项目用于bing、google、baidu搜索引擎关键词的抓链，基于python 3.6和scrapy。
+
+根据https://github.com/xtt129/seCrawler提供的项目进行小小改动以适应3.6版本。
