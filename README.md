@@ -1,7 +1,7 @@
 # seCrawler(Search Engine Crawler)
 A scrapy project can crawl search result of Google/Bing/Baidu
 
-Forking by https://github.com/xtt129/seCrawler
+Copying by https://github.com/xtt129/seCrawler
 
 Thank you for sharing
 
