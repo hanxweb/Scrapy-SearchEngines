@@ -32,3 +32,17 @@ But to reduce these measures, we recommand to set ```DOWNLOAD_DELAY=10``` in set
 本项目用于bing、google、baidu搜索引擎关键词的抓链，基于python 3.6和scrapy。
 
 根据 https://github.com/xtt129/seCrawler 提供的项目进行小小改动以适应3.6版本。
+
+使用方法：
+---进入项目目录执行指令---
+####Bing
+```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=bing -a pages=50```
+
+####Baidu
+```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=baidu -a pages=50```
+
+####Google
+```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=google -a pages=50```
+
+本项目没有保护IP的功能，过度爬取可能会被封杀IP，可以尝试延长下载时间间隔：
+在settings.py中进行配置，例：```DOWNLOAD_DELAY=10```
