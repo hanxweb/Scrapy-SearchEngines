@@ -36,15 +36,15 @@ But to reduce these measures, we recommand to set ```DOWNLOAD_DELAY=10``` in set
 使用方法：
 ---进入项目目录执行指令---
 
-####Bing
+Bing：
 
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=bing -a pages=50```
 
-####Baidu
+Baidu：
 
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=baidu -a pages=50```
 
-####Google
+Google：
 
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=google -a pages=50```
 
