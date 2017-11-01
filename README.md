@@ -37,12 +37,15 @@ But to reduce these measures, we recommand to set ```DOWNLOAD_DELAY=10``` in set
 ---进入项目目录执行指令---
 
 ####Bing
+
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=bing -a pages=50```
 
 ####Baidu
+
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=baidu -a pages=50```
 
 ####Google
+
 ```scrapy crawl keywordSpider -a keyword=Spider-Man -a se=google -a pages=50```
 
 本项目没有保护IP的功能，过度爬取可能会被封杀IP，可以尝试延长下载时间间隔：
